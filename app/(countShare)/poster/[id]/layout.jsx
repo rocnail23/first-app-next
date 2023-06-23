@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Fragment } from "react"
 
- export default async function ({params,children}) {
+ export default async function Asd({params,children}) {
 
    const {id} = params
 

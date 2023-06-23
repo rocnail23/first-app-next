@@ -20,7 +20,7 @@ export default async function Comments({params}) {
         <Fragment>
             <ul>
             {comments.map(comment => (
-                <li>
+                <li key={comment.id}>
                     <h1>{comment.name}</h1>
                     <p>{comment.body}</p>
                 </li>

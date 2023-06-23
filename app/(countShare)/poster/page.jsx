@@ -7,7 +7,7 @@ import Button from "./button"
 
 
 
-export default async function () {
+export default async function page123() {
 
      const  posterFetch =() => {
         return fetch("https://jsonplaceholder.typicode.com/posts")
