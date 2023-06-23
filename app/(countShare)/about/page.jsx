@@ -1,10 +1,10 @@
 const AboutPages = () => {
 
-    return (
+  return (
 
-        <h1>esto es about</h1>
-        
-    )
+  <h1>esto es about</h1>
+
+)
 
 
 }
